@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Phaser - Making your first game, part 1</title>
+	<script type="text/javascript" src="js/phaser.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/player.js"></script>
+	<script type="text/javascript" src="js/socketConnection.js"></script>
+	<script type="text/javascript" src="js/platform.js"></script>
+	<script type="text/javascript" src="js/weapon.js"></script>
+	<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <style type="text/css">
+        body {
+            margin: 0;
+        }
+
+        #login {
+        	position: fixed;
+        	top: 100px;
+        	left: 270px;
+        }
+    </style>
+</head>
+<body>
+	<div id="login">
+		<button id="loginBtn">Play as: </button>
+		<input id="loginInput" value="unknown" type="text"></input>
+	</div>
+
+</body>
+</html>
